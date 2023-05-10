@@ -2,7 +2,7 @@
 body {
   background-color: gray;
   background-image: url("images/bg.jpg");
-  background-size: contain; /*containも試してください*/
+  background-size: cover;
 }
 
 #wrap {
@@ -15,7 +15,7 @@ header {
   padding: 40px;
   height: 80px;
   background-image: url("images/pattern.png");
-  background-repeat: repeat; /*no-repeat, repeat-x, repeat-yも試してください*/
+  background-repeat: repeat;
 }
 
 nav {
@@ -37,6 +37,6 @@ footer {
   /*background-image: url("images/logo.png");
   background-repeat: no-repeat;
   background-size: 200px 50px;
-  background-position: center bottom; *//*top, center, bottomに変更してみてください*/
-  background: url("images/logo.png") no-repeat center/200px top/50px;
+  background-position: center bottom;*/
+  background: black url("images/logo.png") no-repeat center bottom / 200px 50px;
 }
